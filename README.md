@@ -4,7 +4,7 @@ Página de formulário para seleção de planos, desenvolvida com HTML e CSS.
 
 ## 📸 Preview
 
-![Preview do projeto](./preview.png)
+![Preview do projeto](preview/preview-img.png)
 
 ## 🚀 Tecnologias
 
