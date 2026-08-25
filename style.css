@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: #DBE8E7;
+    --text-color: rgb(27, 26, 26);
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    height: 100vh;
+    display: grid;
+
+}
+
+form {
+    background-color: white;  
+    width: min(60rem, 87%);
+    min-height: 65rem;
+    margin: auto;
+    border-radius: 3.5rem;
+    box-shadow: 0rem 1rem  2rem rgb(184, 184, 184);
+
+
+
+}
+
+.fildset {
+    border:none;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+fieldset legend {
+    margin: 4.5rem 4.4rem 3rem 4.7rem;
+    font-size: 3.0rem;
+    font-family: "Libre baskerville", serif;
+    font-weight: 700;
+
+}
+
+.radio-box {
+    border-radius: 1.0rem;
+    border: 0.1px solid #857e7e;
+    margin: 0rem 4.8rem 1.6rem 4.8rem;
+    padding: 2rem 0rem 2rem 1.4rem;
+
+}
+
+.radio-box-2 {
+    border-radius: 1.0rem;
+    border: 0.1px solid #857e7e;
+    margin: 0rem 4.8rem 6.0rem 4.8rem;
+    padding: 2rem 0rem 2rem 1.4rem;
+}
+
+#plan-1,
+#plan-2 {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-right: 0.8rem;
+
+}
+
+.radio-box p,
+.radio-box-2 p {
+    margin-left: 3.6rem;
+    margin-right: 7rem;
+}
+
+.radio-box label,
+.radio-box-2 label {
+    font-size: 2.2rem;
+    font-weight: 600;
+
+}
+
+.checkbox-wrapper,
+.checkbox-wrapper-2 {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-left: 6.6rem;
+    margin-right: 6.8rem;
+    margin-bottom: 2.4rem;
+
+}
+.checkbox-wrapper-2{
+   margin-bottom:4.5rem}
+
+
+#mailing,
+#Terms {
+    flex-shrink: 0;
+    width: 2.54rem;
+    height: 2.4rem;
+    border: #857e7e 0.1px solid;
+
+}
+
+.checkbox-wrapper label,
+.checkbox-wrapper-2 label {
+   line-height: 1.4;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 2rem;
+    margin-bottom: 5.5rem;  
+   
+}
+.Enviar{
+    font-family:inherit;
+    border: none;
+    color: var(--primary-color);
+    width: min(49rem, 87%);
+    height: 5rem;
+    margin: auto;
+    background-color: black;
+}
+

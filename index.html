@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <fieldset class="fildset">
+            <div>
+                <legend>Choose a trial plan</legend>
+            </div>
+            <div class="radio-box">
+
+                <input type="radio" name="plan" id="plan-1">
+                
+                <label for="plan-1">Standard</label>
+                <p>5 TB of space with easy-to-use team management and colaboration tools</p>
+                
+            </div>
+
+            <div class="radio-box-2">
+
+                <input type="radio" name="plan" id="plan-2" checked>
+                <label for="plan-2">Advanced</label>
+                <p>As much space as your team needs with sophisticated admin, audit, security and integration capabilities.</p>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="Terms" id="Terms" >
+                <label for="Terms">I agree to <a href="">Agrements and Terms</a>. Find out more about how we use and project your data in our <a href="">Privacy Policy.</a> </label>
+            </div>
+            <div class="checkbox-wrapper-2">
+                <input type="checkbox" name="mailing" id="mailing">
+                <label for="Terms">I'd like to receive direct marketing email updates.</label>
+            </div>
+            <div class="button-wrapper">
+                <button type="submit" class="Enviar">Start free trial</button>
+                <small>No credit card needed</small>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
